@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Form da t3</title>
+</head>
+
+<body>
+	<header>
+		<h1>Cadastro pessoal</h1>
+	</header>
+
+	<main>
+		<form>
+			<label for="name">Name</label>
+			<input id="name" type="text" name="name" placeholder="digite um nome aqui" required>
+
+			<div>
+				<label for="email">Email</label>
+				<input id="email" type="email" name="email" placeholder="123@gmail.com">
+			</div>
+
+			<label for="age">Age</label>
+			<input id="age" type="number" name="age" min="18" max="29">
+
+			<div>
+				<label for="senha">Senha</label>
+				<input id="senha" type="password" name="senha" min="7">
+			</div>
+
+			<label for="data">Birthday</label>
+			<input id="data" type="date" name="data">
+
+			<div>
+				<p>dexei seu comentario</p>
+				<textarea rows="10" name="cometario" placeholder="deixei seu comentario">
+				</textarea>
+			</div>
+
+			<h3>dias da semana</h3>
+			<label for="seg">segunda</label>
+			<input id="seg" type="radio" name="semana" checked>
+
+			<label for="ter">terça</label>
+			<input id="ter" type="radio" name="semana">
+
+			<label for="qua">quarta</label>
+			<input id="qua" type="radio" name="semana">
+
+			<label for="quin">quinta</label>
+			<input id="quin" type="radio" name="semana">
+
+			<h2>Escolha sua Localidade</h2>
+			<select>
+				<optgroup label="Zona Norte">
+					<option>Cachambi</option>
+					<option>Meier</option>
+				</optgroup>
+				<optgroup label="Zona Sul">
+					<option>Copacabana</option>
+					<option>Leblon</option>
+					<option>Ipanema</option>
+					<option>Laranjeiras</option>
+				</optgroup>
+			</select>
+
+		</form>
+	</main>
+
+	<footer></footer>
+</body>
+
+</html>
