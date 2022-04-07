@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* reset css */
+
+/* /* p{
+/* 	text-indent:30px; */
+/* 	border:solid; */
+/* 	line-height:30px; */
+/* 	letter-spacing:15px; */
+/* 	word-spacing:15px; */
+/* 	word-spacing:350px; */
+
+body {
+	width: 500px;
+	padding: 125px;
+}
+
+.photo {
+	width: 200px;
+	height: 150px;
+	border: solid;
+}
+
+div {
+	width: 200px; /* 	define a largura do elemento */
+	height: 200px; /* 	define a altura do elemento */
+	padding: 0px; /* 	adiciona espaço entre o conteudo e a borda */
+	margin: 0px; /*adiciona espaço entre o elementos e os outros em volta */
+	background-color: red;
+}
