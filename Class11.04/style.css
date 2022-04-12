@@ -1,0 +1,49 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+
+header{
+	max-width:1920px;
+	border:solid;
+	width:100%;
+	font-size:20px;
+}
+
+div{
+	width:50%;
+	border:solid;
+	margin-left:2em;
+}
+
+p{
+	
+	border:solid;
+}
+
+.paragraph{
+	background-color:red;
+	font-size:2rem;
+	font-weight:300;
+}
+
+.aboutParagraph{
+	font-size:2em;
+	font-weight:400;
+	background-color:blue;
+
+}
+
+.contact{
+	font-weight:700;]
+	font-size:15px;
+	background-color:yellow;
+}
+
+/* 1vh = 9px; 1/100 = 900px */
+
+/* vw largura vh altura*/
