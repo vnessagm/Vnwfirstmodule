@@ -1,0 +1,140 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  background-color:yellow;
+  opacity: 0.6;
+}
+
+ header h1{
+  margin-left: 1vw;
+  margin-top: 2vh;
+  font-weight: 400;
+  font-size: 20px;
+ }
+
+ header nav{
+    width: 20%;
+    margin-top: 2vh;
+    margin-left: 9vw;
+ }
+
+header li{
+  margin-top: 2vh;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+header h2{
+  margin-left: 1vw;
+  font-size:24px;
+  font-weight: 400;
+  margin-top: 4vh;
+}
+
+header button{
+  margin-left:1vw;
+  margin-top:2vh;
+  width:1.2rem;
+}
+
+header p{
+  margin-top: 7vh;
+  margin-left:1vw;
+}
+
+
+main h2{
+  margin-left: 1vw;
+  font-weight: 500;
+  font-size:30px;
+  margin-top:8vh;
+  margin-bottom: 9vh;
+}
+
+
+.btn_main{
+  background-color:#CDCDD2;
+  border-color:#CDCDD2;
+  width:249px;
+  text-align: center;
+  height: 42px;
+  font-size:20px;
+  font-weight: 400;
+  margin-left: 3vw;
+  transition: 2s ease-in;
+}
+
+.btn_main:hover{
+  cursor: pointer;
+  box-shadow: 3px 2px 1px #696969;
+  transform: scale(110%);
+}
+
+.container_text{
+  margin-left:1.5vw;
+}
+
+.container_text--paragraph{
+  font-size:20px;
+  line-height: 20px;
+  font-weight: 300;
+  text-align:left;
+  text-indent: 0.5vw;
+  width:90%;
+  margin-top:2rem;
+}
+
+.btn{
+  border:solid 1px #BFBDBD;
+  background-color:#BFBDBD;
+  margin-top:13vh;
+  margin-left:3vw;
+  width:177px;
+  font-size:20px;
+  height:42px;
+}
+
+.container_box--figure{
+  width:300px;
+  height: 300px;
+  background-image: url('https://landingpage.petz.com.br/vira-lata-caramelo/images/foto-kimilatinha.png');
+  background-repeat: no-repeat;
+  margin-top:7vh;
+  margin-left: 2vw;
+  border:solid 1px;
+  border-radius:50%;
+  background-color:black;
+  }
+
+
+/*header{
+  max-width: 1360px;
+  width:100%;
+  margin:auto ;
+}
+
+nav{
+  border:solid;
+  text-align: center;
+}
+  
+
+li{
+  display: inline-block;
+  width: 100px;
+}
+
+@media(min-width:400px){
+  li{
+    width:20vw;
+  }
+  nav{
+    background-color:red;
+  }
+} */
