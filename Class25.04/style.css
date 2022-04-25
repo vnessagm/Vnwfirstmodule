@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,500;1,600&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-image: url('https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:3e5bdfff-8c40-42c0-8fd9-125ed8881d4e;revision=0?component_id=2aa22924-402c-4d35-bcf9-2acd27754d88&api_key=CometServer1&access_token=1650930137_urn%3Aaaid%3Asc%3AUS%3A3e5bdfff-8c40-42c0-8fd9-125ed8881d4e%3Bpublic_9c0f8b7aa83cb08195b5e4bc35fd9411db1b3ba5');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+header{
+    text-transform: uppercase;
+    color:white;
+}
+
+.logo{
+    display: inline-block;
+}
+
+.logo img{
+    margin-left:179px;
+    margin-top:13px;
+}
+div{
+    display: inline-block;
+    vertical-align:40px;
+    width: 30%;
+    margin-left:35px;
+    
+}
+h2{
+    font-weight: 300;
+}
+
+nav{
+    display: inline-block;
+       text-align: right;
+    vertical-align:40px;
+    width: 50%;    
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+ul{
+    list-style:none;
+    letter-spacing: 0.6px;
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+    margin:50px;
+    font-size:20px;
+}
+
+li:hover{
+    font-weight: 700;
+    
+}
+
+section{
+    background-image: url('https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:3e5bdfff-8c40-42c0-8fd9-125ed8881d4e;revision=0?component_id=7a8c854a-a5c6-4f77-bb53-8c7f1154222c&api_key=CometServer1&access_token=1650930137_urn%3Aaaid%3Asc%3AUS%3A3e5bdfff-8c40-42c0-8fd9-125ed8881d4e%3Bpublic_9c0f8b7aa83cb08195b5e4bc35fd9411db1b3ba5');
+    background-repeat: no-repeat;
+    background-size: contain;  
+    height: 1080px;
+     margin-left: 600px;
+}
+.wild-hunt img{
+    margin-top:513px;
+    margin-left:145px;
+
+}
+button{
+    width:338px;
+    height: 67px;
+    background: brown;
+    border-radius: 10px ;
+    border:none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left:191px;
+    margin-top:28px;
+}
