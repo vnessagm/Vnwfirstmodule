@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+body {
+	width: 1290px;
+	height: 1024px;
+	background-color: #2cb3f3;
+	position: absolute;
+}
+
+.container_title{
+  position: absolute;
+  width: 1056px;
+	height: 132px;
+	left: 144px;
+	top: 86px;
+}
+.container_title h2{
+  font-size: 3.5em;
+  text-align:center;
+   
+}
+
+.container_title p{
+  text-align:center;
+}
+
+.head{
+   position: absolute;
+  width: 880px;
+	height: 616px;
+	position: absolute;
+	top: 245px;
+	left: 243px;
+	background-color: #ffffff;
+	border-radius: 100px 100px 0 0;
+}
+
+.face{
+  position: absolute;
+  background-color: #FFE1C9;
+  height:487px;
+  width:692px;
+  border-radius:50%;
+  top:64px;
+  left:94px;
+  
+}
+
+.left_eye{
+  width: 55px;
+	height: 55px;
+	position: absolute;
+	top: 160px;
+	left: 300px;
+	background-color: #000000;
+	border-radius: 50%;
+}
+
+.right_eye{
+  width: 55px;
+	height: 55px;
+	position: absolute;
+	top: 160px;
+	left: 530px;
+	background-color: #000000;
+	border-radius: 50%;
+}
+
+
+.input_email{
+  padding:5px;
+  width: 373px;
+	height: 63px;
+	position: absolute;
+	top: 330px;
+	left: 270px;
+	border: solid;
+	border-color: #000000;
+	border-radius: 5px;
+	font-size: 24px;
+  font-weight:400;
+}
+
+
+.input_password{
+  padding:5px;
+  width: 373px;
+	height: 63px;
+	position: absolute;
+	top: 393px;
+	left: 270px;
+	border: solid;
+	border-color: #000000;
+	border-radius: 5px;
+	font-size: 24px;
+  font-weight:400;
+}
+
+button{
+  border:none;
+  position:absolute;
+  background-color:#55A603;
+  color: #B2F272;
+  width:220px;
+  height: 70px;
+  font-size:24px;
+  text-transform:uppercase;
+  border-radius:4px;
+  top: 700px;
+  left: 330px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
