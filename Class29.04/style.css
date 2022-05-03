@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:darkseagreen;
+}
+
+
+.corpo{
+    position: relative;
+    background-color: green;
+    height: 50vh;
+    width: 20vw;
+    top:30vh;
+    right:-40vw;
+    border-radius: 120px 120px 0 0;
+    border:solid;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.olho-direito{
+    position: absolute;
+    background-color: blue;
+    width: 30px;
+    height: 30px;
+    left: 5vw;
+    bottom:34.8vh;
+    border-radius: 50%;
+   
+}
+
+.olho-esquerdo{
+    position: absolute;
+    background-color: yellow;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    top:10vh;
+    right: 5vw;
+    
+   
+}
+
+.nariz{
+    position: absolute;
+    right: 8vw;
+    border-left: 30px solid transparent;
+    border-right: 30px  solid transparent;
+    border-bottom: 30px solid red;
+}
+
+input{
+    position: absolute;
+    top:30vh;
+    right: 5vw;
+    height: 5vh;
+    width:10vw;
+    font-size:2rem;
+    
+}
